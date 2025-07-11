@@ -1,0 +1,154 @@
+.users-header {
+  width: 100%;
+  background: #0a2236;
+  color: #fff;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 0 40px;
+}
+
+.users-header-title {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.users-header-info {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.users-header-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #e74c3c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.users-header-dropdown {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  min-width: 120px;
+  z-index: 100;
+}
+
+.users-header-logout {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.users-main {
+  min-height: 100vh;
+  background: #f4f6fa;
+  padding-top: 64px;
+}
+
+.users-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  padding: 32px;
+  margin-top: 48px;
+  min-height: 500px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.users-table-header {
+  background: #f7f8fa;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.users-action-btn {
+  padding: 6px 18px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.users-action-btn.edit {
+  background: #2196f3;
+}
+
+.users-action-btn.delete {
+  background: #f44336;
+}
+
+.users-search-input {
+  padding: 8px 36px 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 220px;
+  background: #fff;
+}
+
+.users-search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 18px;
+}
+
+.users-pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.users-modal-form label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.users-modal-form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.users-modal-form .error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+} 
